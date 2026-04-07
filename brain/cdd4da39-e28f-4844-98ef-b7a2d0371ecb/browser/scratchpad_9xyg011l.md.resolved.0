@@ -1,0 +1,10 @@
+# Resume Generator Interaction Plan
+
+- [ ] Open http://localhost:5173
+- [ ] Edit 'Nome Completo' to 'Juliana Santos'
+- [ ] Edit 'Cargo / Título' to 'Engenheira de Software Senior'
+- [ ] Scroll through editor and preview
+- [ ] Click 'Imprimir / PDF' button
+- [ ] Summarize findings
+
+Current Status: Page open on localhost but blank. Investigating.

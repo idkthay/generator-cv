@@ -1,0 +1,17 @@
+# Tarefas - Autenticação & Rotas
+
+- `[x]` 1. Configuração Base do Roteador
+  - `[x]` Instalar `react-router-dom`
+  - `[x]` Atualizar arquivos raízes (`main.tsx` / `App.tsx`) com o Router Principal
+- `[x]` 2. Banco de Dados Local Mock
+  - `[x]` Criar arquivo central (`services/db.ts`) com os Utilitários do `localStorage`
+  - `[x]` Configurar "usuário autenticado" atual (Current User)
+- `[x]` 3. Criação de Telas e Interface
+  - `[x]` Criar página de `Login.tsx`
+  - `[x]` Criar página de `Register.tsx`
+  - `[x]` Refatorar a aplicação principal para a página `Dashboard.tsx`
+- `[x]` 4. Lógica de Integração
+  - `[x]` Redirecionar usuário logado ao Dashboard na Raiz `/`
+  - `[x]` Conectar salvamento automático aos componentes do Formulário
+- `[x]` 5. Verificação e Testes Finais
+  - `[ ]` Gravação do Agente testando as funcionalidades

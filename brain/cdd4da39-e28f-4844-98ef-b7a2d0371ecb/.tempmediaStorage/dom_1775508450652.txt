@@ -1,0 +1,16 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (500,500)<div  />
+	MyResume
+	Acesse sua conta
+	[1] (500,380)<label class='form-label'>E-mail />
+	[2] (500,437)<input class='form-input' />
+	[3] (500,532)<label class='form-label'>Senha />
+	[4] (500,588)<input class='form-input' />
+	[5] (500,705)<button class='btn btn-primary'>Entrar />
+	Não tem uma conta?
+	[6] (551,810)<a href='/register'>Cadastre-se />
+
+</current_dom>

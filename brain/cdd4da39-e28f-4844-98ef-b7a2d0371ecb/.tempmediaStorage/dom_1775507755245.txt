@@ -1,0 +1,39 @@
+[0] (500,500)<div  />
+	[1] (258,500)<div class='editor-section glass-panel' scrollable='true' />
+		Gerador de Currículos
+		[2] (419,106)<button class='btn btn-primary'>Imprimir / PDF />
+		Dados Pessoais
+		[3] (142,276)<label class='form-label'>Nome Completo />
+		[4] (142,333)<input class='form-input' placeholder='Ex: João da Silva' />
+		[5] (367,276)<label class='form-label'>Cargo / Título />
+		[6] (367,333)<input class='form-input' placeholder='Ex: Desenvolvedor Senior' />
+		[7] (142,427)<label class='form-label'>E-mail />
+		[8] (142,484)<input class='form-input' placeholder='Ex: joao@email.com' />
+		[9] (367,427)<label class='form-label'>Telefone />
+		[10] (367,484)<input class='form-input' placeholder='(00) 00000-0000' />
+		[11] (255,579)<label class='form-label'>Localização />
+		[12] (255,636)<input class='form-input' placeholder='Cidade, Estado' />
+		[13] (255,731)<label class='form-label'>Resumo Profissional />
+		[14] (255,823)<textarea class='form-textarea' placeholder='Descreva brevemente suas qualificações...' />
+		Experiência Profissional
+		Adicionar
+	[15] (749,500)<div class='preview-section' scrollable='true' />
+		Desenvolvedora Frontend com 4 anos de experiência criando interfaces e aplicações web responsivas.
+		Experiência Profissional
+		Desenvolvedora Web Pleno
+		Jan 2021
+		- Presente
+		Tech Solutions LTDA
+		Liderança técnica no desenvolvimento de aplicações com React e TypeScript. Mentoria de desenvolvedores juniores e otimização de performance.
+		Formação Acadêmica
+		Bacharelado em Ciência da Computação
+		2016
+		- 2020
+		Universidade de São Paulo (USP)
+		Habilidades
+		React
+		TypeScript
+		JavaScript
+		TailwindCSS
+		Node.js
+		Git

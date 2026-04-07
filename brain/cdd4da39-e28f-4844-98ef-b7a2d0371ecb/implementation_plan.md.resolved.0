@@ -1,0 +1,62 @@
+# Gerador de Currículos Online
+
+Um aplicativo web dinâmico e moderno que permite aos usuários criar currículos de forma interativa. O aplicativo contará com uma tela dividida: de um lado o formulário para inserção de dados (informações pessoais, experiência profissional, educação e habilidades) e, do outro, a pré visualização do currículo atualizada em tempo real. O foco será em uma estética extremamente _premium_, oferecendo uma experiência incrível ao usuário. Ao final, o usuário poderá exportar o currículo finalizado ou imprimi-lo diretamente.
+
+## User Review Required
+
+> [!IMPORTANT]
+> O aplicativo será criado no diretório `C:\Users\taynara.silva\.gemini\antigravity\scratch\resume-generator`, já que o seu ambiente não possui um workspace ativo. **Recomendo que você abra esta pasta no VS Code ou sua IDE favorita futuramente.**
+> 
+> Gostaria de confirmar a seguinte escolha de tecnologia:
+> - **Stack:** Vite com React e TypeScript. É extremamente rápido e ótimo para apps tipo "Single Page Application".
+> - **Estilização:** CSS Puro focado em visuais espetaculares ("Glassmorphism", modo escuro elegante e tipografia impecável, utilizando fontes como _Inter_ ou _Outfit_).
+> - **Funcionalidade PDF:** Pretendo implementar um modelo de exportação focado na função nativa de impressão do navegador (que preserva alta resolução), complementado com a biblioteca `lucide-react` para obter ícones incríveis.
+
+Você aprova este cenário para o projeto? Além disso, se quiser que eu utilize TailwindCSS ou Next.js ao invés do Vite/React puro, peço que especifique.
+
+## Proposed Changes
+
+---
+
+### Configuração do Projeto
+
+#### [NEW] [npx create-vite]
+Iremoes rodar `npx -y create-vite@latest resume-generator --template react-ts` para inicializar a fundação deste aplicativo na sua pasta temporária.
+
+---
+
+### Componentes de React e Layout
+
+#### [NEW] [src/App.tsx]
+Substituirei a aplicação base do Vite pelo layout principal: dividindo a tela usando Flexbox ou CSS Grid em uma área de controle (formulário) e a área de visualização (preview do currículo).
+
+#### [NEW] [src/components/Editor.tsx]
+Componente responsável por apresentar formulários divididos em seções harmoniosas:
+- Dados Pessoais
+- Histórico Profissional
+- Histórico Acadêmico
+- Habilidades
+
+#### [NEW] [src/components/ResumePreview.tsx]
+Componente que receberá o estado modificado pelo usuário e vai renderizar o Layout de Currículo escolhido.
+
+#### [MODIFY] [src/index.css]
+Implementarei um design system completamente novo:
+- Paleta de cores moderna e adaptável.
+- Variáveis de "Glassmorphism" para que o formulário "flutue" sobre um fundo animado.
+- Definição da fonte importada através do Google Fonts.
+
+---
+
+## Open Questions
+
+> [!WARNING]
+> Você possui alguma preferência visual em relação às cores da interface? Por exemplo, prefere um modo claro luxuoso, um modo escuro dinâmico, ou opções de personalização integradas na própria interface?
+
+## Verification Plan
+
+### Manual Verification
+- Iniciaremos o servidor de desenvolvimento via `npm run dev`.
+- Serão testados o preenchimento de campos e refletidos de imediato no layout.
+- Verificarei em tela o resultado da estética e animações.
+- Testarei a funcionalidade para Imprimir / Salvar em PDF via navegador para garantir que as margens são mantidas de forma profissional.

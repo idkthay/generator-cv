@@ -1,0 +1,28 @@
+# Walkthrough: Gerador de Currículos Online
+
+O aplicativo foi implementado com sucesso utilizando a stack tecnológica aprovada (**Vite + React + TypeScript**) e uma estilização completamente "vanilla" e livre de frameworks CSS com efeitos extremamente modernos (_Glassmorphism_, gradientes animados e tipografia _Inter_).
+
+## O que foi feito
+- **Estruturação do Aplicativo**: Criação do layout principal dividido em duas seções (Edição e Visualização).
+- **Design System Premium**: Adição de uma paleta de cores harmoniosa, com interface clara e limpa. A página utiliza um fundo animado com sobreposição de painéis estilo vidro despolido (_glassmorphism_).
+- **Componentes do Formulário**: Formulários dinâmicos que permitem a adição contínua de "Experiências Profissionais", "Formações Acadêmicas", etc.
+- **Pré-visualização Dinâmica**: Um currículo na proporção de uma página A4 em constante atualização lado a lado ao conteúdo digitado.
+- **Exportação Nativa de PDF / Impressão**: Um botão configurado para ocultar elementos da _interface do usuário_ (painéis de controle, planos de fundo) ao utilizar a caixa de diálogo de impressão nativa, garantindo fidelidade altíssima de PDF sem uso de bibliotecas de terceiros pesadas.
+
+## Gravação Dinâmica (Demo)
+Abaixo está a interface do gerador de currículos em Ação gravado num subagente focado em testar a aplicação no navegador:
+
+````carousel
+![Gerador de Currículos Demo](file:///C:/Users/taynara.silva/.gemini/antigravity/brain/cdd4da39-e28f-4844-98ef-b7a2d0371ecb/resume_generator_working_1775507715422.webp)
+<!-- slide -->
+![Captura Superior do Editor](file:///C:/Users/taynara.silva/.gemini/antigravity/brain/cdd4da39-e28f-4844-98ef-b7a2d0371ecb/resume_generator_top_1775507738613.png)
+<!-- slide -->
+![Captura do Preview](file:///C:/Users/taynara.silva/.gemini/antigravity/brain/cdd4da39-e28f-4844-98ef-b7a2d0371ecb/resume_preview_scrolled_1775507744968.png)
+````
+
+## Como Testar Manualmente
+1. Acesse o IP Local do seu projeto: `http://localhost:5173/` (Servidor já está rodando em dev mode).
+2. Tente preencher as formações e experiências profissionais.
+3. Utilize o botão **Imprimir / PDF** para abrir o menu do sistema operacional - selecione \`Salvar como PDF\`.
+
+**Nota:** O código-fonte se encontra em `C:\Users\taynara.silva\.gemini\antigravity\scratch\resume-generator`. Abre-o no seu IDE preferido.
